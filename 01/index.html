@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRO A HTML</title>
+</head>
+<body bgcolor="pink" text="while">
+    <a href="dos.html">IR A DOS</a>
+    <a href="miestilo.html">MI ESTILO</a>
+
+
+    <a href="https://www.google.com" target="_blank">GOOGLE</a>
+
+    <h1>HOLA MUNDO<h1> 
+    <h2>HOLA MUNDO<h2>
+    <h3>HOLA MUNDO<h3> 
+    <h4>HOLA MUNDO<h4> 
+    <h5>HOLA MUNDO<h5> 
+    <h6>HOLA MUNDO<h6>  
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti debitis expedita esse repellat autem modi maiores nisi eos, fugiat veritatis maxime vitae nostrum, labore ex vel unde eveniet sint molestias! </p> 
+<hr>
+<marquee behavior="scroll"
+direction="left" >VIVA MEXICO</marquee>
+<marquee behavior="scroll"
+direction="right" >VIVA MEXICO</marquee>
+
+<ul type="square">
+  <li>MAYTE</li>  
+  <li>VIDAL</li>  
+  <li>VIDAL</li>  
+  <li>VIDAL</li>  
+  <li>VIDAL</li>  
+    
+</ul>
+<OL type="I" >
+  <li>MAYTE</li>  
+  <li>VIDAL</li>  
+  <li>VIDAL</li>  
+  <li>VIDAL</li>  
+  <li>VIDAL</li>  
+
+  </Ol>
+
+<img src="may/pedrotrompas.png" alt="" width="100px" height="100px">
+<table border="1" width="100%" cellspacing="0" cellpadding="10">
+    <tr>
+        <td>MAYTE</td>
+        <td>VIDAL</td>
+    </tr>
+    <tr>
+        <td>MAYTE</td>
+        <td>VIDAL</td>
+    </tr>
+    <table>
+        <video src="may/video.mp4" width="320" height="240" controls> 
+        </video>
+
+<br>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SR4Dpp4zxyE?si=KG9k9vNjfM1naqg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+        <form action="procesar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"> <br><br>
+
+            <label for="email"> Email:</label>
+            <input type="email" id="email" name="email"> <br><br>
+
+
+            <input type="button" value="Enviar">
+      </form>
+
+     <form action="" method="post">
+
+    <fieldset>
+        <legend>Datos personales</legend>
+
+        <label>Nombre:
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+        </label><br><br>
+
+        <label>Email:
+            <input type="email" name="email" required>
+        </label><br><br>
+
+        <label>Contraseña:
+            <input type="password" name="password">
+        </label><br><br>
+
+        <label>Teléfono:
+            <input type="tel" name="telefono">
+        </label><br><br>
+
+        <label>Edad:
+            <input type="number" name="edad" min="1" max="100">
+        </label><br><br>
+
+        <label>Fecha:
+            <input type="date" name="fecha">
+        </label><br><br>
+
+        <label>Hora:
+            <input type="time" name="hora">
+        </label><br><br>
+
+        <label>Fecha y hora:
+            <input type="datetime-local" name="datetime">
+        </label><br><br>
+
+        <label>Mes:
+            <input type="month" name="mes">
+        </label><br><br>
+
+        <label>Semana:
+            <input type="week" name="semana">
+        </label><br><br>
+
+        <label>Color:
+            <input type="color" name="color">
+        </label><br><br>
+
+        <label>Archivo:
+            <input type="file" name="archivo">
+        </label><br><br>
+
+        <label>Web:
+            <input type="url" name="web">
+        </label><br><br>
+
+        <label>Búsqueda:
+            <input type="search" name="buscar">
+        </label><br><br>
+
+        <label>Rango:
+            <input type="range" name="rango" min="0" max="100">
+        </label><br><br>
+
+        <label>Oculto:
+            <input type="hidden" name="oculto" value="123">
+        </label>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Opciones</legend>
+
+        Género:<br>
+        <label><input type="radio" name="genero" value="h"> Hombre</label>
+        <label><input type="radio" name="genero" value="m"> Mujer</label><br><br>
+
+        Intereses:<br>
+        <label><input type="checkbox" name="intereses" value="deporte"> Deporte</label>
+        <label><input type="checkbox" name="intereses" value="musica"> Música</label><br><br>
+
+    </fieldset>
+
+    <label>País:
+        <select name="pais">
+            <optgroup label="América">
+                <option value="mx">México</option>
+                <option value="ar">Argentina</option>
+            </optgroup>
+            <optgroup label="Europa">
+                <option value="es">España</option>
+            </optgroup>
+        </select>
+    </label><br><br>
+
+    <label>Navegador:
+        <input list="navegadores" name="navegador">
+    </label>
+    <datalist id="navegadores">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+    </datalist>
+    <br><br>
+
+    <label>Mensaje:</label><br>
+    <textarea name="mensaje" rows="4" cols="40"></textarea>
+    <br><br>
+
+    <label>Resultado:</label>
+    <output name="resultado">0</output>
+    <br><br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpiar</button>
+    <button type="button">Botón normal</button>
+
+</form>
+        
+</body>
+</html>
