@@ -28,7 +28,7 @@ const borrar=()=>{
   document.getElementById("vnum1").textContent="1";
   document.getElementById("vnum2").textContent="1";
   document.getElementById("res").innerHTML="";
-  document.getElementById("vnum1").value=1;
-  document.getElementById("vnum2").value=1;
+  document.getElementById("vnum1").value=1
+  document.getElementById("vnum2").value=1
    
 }

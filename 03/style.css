@@ -1,0 +1,23 @@
+.fondo{
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(135, 24, 143, 0.81) 65%, rgba(237, 221, 83, 1) 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    transition:all 2s ease;
+}
+#figura{
+    display: block;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
